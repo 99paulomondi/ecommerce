@@ -1,0 +1,46 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+#products a{
+    text-decoration: none;
+}
+#products p{
+    color: black;
+}
+html{
+    scroll-behavior: smooth;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,215,0)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.navbar{
+    background-color: #fff;
+}
+.navbar a{
+    color: grey;
+}
+.hero-image{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+.btn-warning{
+    background: none;
+    border: 1px solid #ffd700;
+    color: #ffd700;
+    outline: none;
+}
+.btn-warning:hover{
+    background: none;
+    border: 1px solid #ffd700;
+    color: #ffd700;
+}
+.btn-success{
+    background-color: #ffd700;
+    border: none;
+}
+.footer{
+    background-color: #ebebeb;
+    min-height: 20vh;
+}
